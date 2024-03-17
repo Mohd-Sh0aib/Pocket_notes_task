@@ -1,0 +1,33 @@
+.m_notes_content_body{
+    border: 1px solid black;
+    padding: 5px;
+    min-height: 15vh;
+    position: relative;
+    height: auto;
+    width: 97vw; 
+    margin: 1vh 0 1vh 0;
+}
+.m_notes_content_date_time_details{
+    width: 97vw;
+    height: 4vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    min-height: 3vh;
+    background-color: #F7ECDC;
+}
+
+.m_notes_content_date, .m_notes_content_time{
+    font-size: 2vh;
+    font-weight: 600;
+    margin-left: 2vh;
+}
+
+.m_notes_content_details{
+    min-height: 10vh;
+    height: auto;
+    width: 55vw;
+    text-align: left;
+    margin: 0 0 0 1vw;
+}
